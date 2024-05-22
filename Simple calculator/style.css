@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  input[type="number"] {
+    width: 40%;
+    height: 30px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    width: 20%;
+    height: 30px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }

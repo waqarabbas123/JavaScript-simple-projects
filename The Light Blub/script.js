@@ -1,0 +1,3 @@
+function onFunc(){
+    document.getElementById
+}

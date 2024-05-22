@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA4wMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQEGB//EADMQAAICAgEDAgQFAwMFAAAAAAABAhEDIQQSMUEFURMiMmEUI4GRoVJx4TNC8SRDU1TB/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIDBAD/xAAfEQADAQEAAwEBAQEAAAAAAAAAAQIRAxITITEEcUH/2gAMAwEAAhEDEQA/APipzpLrsQoIDolBXHRTydh2laLJHaOnHadSO9J2KLUEXSvSVkqCEfYINKRdFuqzlEitnBGsLqhmEb2K412HsKbjSLQZ7OPHaor01oajFruFjhvY/iT88FsULgT4e+1jiwa7WR4XWlQ3gJ7BHJit9qASxUx+eJruBWP5xXJSbEcsNlYwH8mK32siw67UJ4D+fwS6NAckaHp4n4FsmNruLUjS9FmijQx0dykoiNFUwFEQXpK0LgdKkLUQ7DtKkIRACdRxxLo6EGgki6R2jtaOw7SJELRjss4BwXSiO1ZdQpWSthw7SqgGxYLdkj9xrixi5MeZEqvhbFgS7odx4FCOok6EqaRoY8TcFXc0xBjvoxTHgt2N4ePsLi4zq2N4sPSWUEK6AYcfXYDPFb6ao0+lKFsUy9N6Gck1T0z8mBQ8WLTxpvSo03rUvIOXHj3RNyWV4ZsMPzMu4aoYlHpYNqxcwbyE8kBecR/JHQrOGydItFCUobBuNDriLzRJyXVC0olekK1sq0SaKJgukhejp2B0WIQgo51FkyqLeAinTqZSzqOOCJl4yA2dTDoMD2c8nIvQXHDqaCKzsI2hrBGp2VhhfgPCDXctMkLo0OPHqlFfqaeGHgzOKummaHHk+v5ma4MXQbiqZaV3oNgxpps7HF3vuVwhoBxnKNUBnBQdNbNGOL7FJ8fqn1UdgPIzsit6RRNttNUaU8CUlYPNx490DxGVGTni3pAfgtO2aTxU9Apxom5KzRnTgLZI0aGRWKZYk2issTmhXItjs1QtNWRo0wxWSK0FlEo0SaK6Do6Wo4KETIVRZCFiyIzqRZIIpRKjp1rZOk47TjLROdwkIhAFhHQfG+loDH2D41spJKhvFkTVHeq5oClSs5KTRXfhHx+mn1KMU737DGLN8pkYVkyunLRqcfH0xTdOisPSHSUjY4WX4eKpKrerZqY4pRuTPOPO1ial3QTj+oZnHpV68F1SMtQ39R6fjqEk1qjmbHGgPH5HTxutRW0U/Ezf1LRTfhHxaYDIvmrq2BnkX0p78leVlTjruK4ZRTd3YjZVL4MuKS0AmrCSbcLTVA4tSX3OCK5YCs4GjkSFMypE6RWWZ2XGKTXg0MiFMiIUjTFCrVA5IPJAZ6JUjQmBaIdbOCDiKReKIkXiiRVs6kWjEiQSIyQjZRxOKJeRWgtHHHGtlol2tI6oHYDTsQ+JPqWgKiO4IbKyStllBtVVHVhbaGulKrJrwtlfEzuyYsbxuqVD+GNJAIx6p19hlqoqisolT0rKMXLcQuHiueRyi6SW/BaEX06XzF8UlibUp239h8JtjHHzywqWKfzKK0y8szyYVJa0wPXG7lf/AMLS+XA2/PYdE2UXTJbV6KKCS7U1333CSh0Y499q9ALuSafbvYAospKbqMl91YPJGUHr9g+OpRk4x39geeNx33Awr9FXyl57gp8iLWwOfGpNtKq7tCWVSTpN/qRqmjRMIPlypvTX7is5l1Dsmrb8gc8ejVfqSpl5SBTl9wUpHJtpgJzIujRMlmzoDrZBNGwrHsEiDiEiAZhEWSB9RaMtDCFjqRyLthUgoGlKLx0iNUdjtjYDQkY2h/hwc6VC+GCZqcDGk14dluc/TN2rEc+BKP1Hfgv2aNZ4FNP3fkJDjRUflVmnwMnsMzFiap+/cf4+PG9TfYI+JLvRfHi6X22MpwV3pXJi38lL7iuXG0qk6dd15NTHC/rWqF+UptpKK6V5Ga+CKvpl5Lji6p31J6GODk/EdMHfTHsn5OPj5MzrRfFgeKXy7aXgRJlG1g1KPXFvxVV7CcuO29yrfY1Y464u1trsymLFeO4va9x2iarDOh8SM4wj/BfLgnTu9jEMF5taf2HvwuuprZyRzvDz0+JJKxLlwimuhJnpeT0RxuPSYfKxpu0SuS0VpmK+v5uyKZYprsMyx77HJRVEWjRNmVkxVK2K5MXzaRrTw3bYKWFEag0T0Mz4b9iD/wAJEF8BvMyosIgcUWRIsyxInCyRwAkHSCKXsUhHXYNCBRE2djvuXjDZaGP7B4Y/sUSJt4XxR+XRocSLjJNguPhulRqcTi3KN9jREmTpQ/w4ucdo08OKNJUU4eBLXg1cHFunWjUvhhp6/gquKpL6QU+C71FnocfHTSpB4cHq8IV2gqKPNY+C5aplZ8Cu8Wz2WD05KO0rLr0qM29aEfVIdcaZ4SfCpNQjtlcPByRfUofufQH6XBR3FfsL5OBTr4ar+x3tkPps8dLhye3bTKwxfCqPSeun6eq+nQnl9PjF/TY66Jk3zpHlvhqOdtB5zqO9Grm4K67URTkcW00kMhP9PP8ALuRk5+uL0rPT5uIvJnZuJF9hKnS0WjBan5RTIkkamTj9L7CeXApXWiTk0TQlNfK6AU67DnwunTBTiiTRVMVaIEajfcguFNZiRxr3CRwr+oXWQJHL9zKmjW0xiPHT/wByCx4q/rQvHN9wkc79x05EaobhxF/5EHx8Na/OiJxz/wBg+PPvuVTkjSo0sPATX+rEewemRdfnRsycXKS8juLmpLuXlyZrmzb43pUdfmwNXjelpVWWB5zD6il/uH8HqqVVLZeXJlubPV8X06q/Mga3H4bSXzxPHYPWKq5Gjx/WkqqX8nUm/wAFjF+o9fh4jrckO4uHrujy3H9bTe3r+5oYfW8el1b/ALkKizTHWEekx8RJbGI8aMex57H6zDtf8jEfWIPvJfuQrnZontzNv8On5By4q9zLfq8FHU0Bl61j79dgXOxn25mnPiLv1IUy8SPmSM/J63ieuv8AgzuR63FPTstPKyF9eZqZ+Jja+tGfm4WN3+ZFGVn9cjX+TO5HrSf/ACXmGv1marl/iNTkcLC/+9D9TNzcLEr/AOoxmZn9VT2mjOz+qv3Q/kl/0RRTNTPw8X/sQEM3Exq65EDLyeqPdsTyepX5J10ktPGx/kcbH45EDPy8f2zwFsnNT8i0+Wn5IV0k1RyoYfGd/wCvEgi+UQn5yW8KMhMspA0zqZj024GUi8ZgEzqkMmLgysmi8crFlIumMqFcjUcr9wsc78NiSkEUkMqYjhGhj5El5G8XKl7mRHIl52FhkfcpNslXNG7i5bVfMOY+c6+r+Dzsc1d/AWHJXjuXnqZ64o9Pi5/hyY3j9RpakzykeV9wsOaltMddSL/nPX4/VJVbnsPH1Wa31NnjVzX3bT+zCLnNLvV+w3tQnoaPYr1aUk9gc3q3y1Fo8pP1FwXfT0Clzt2n+53tR3oZ6efqTkmk90I5vUWnXUYX46SdpoDl5acV86vzsV9ii/nNfL6g3bcmkK5ea/6jKlyHL7oBPPqr7eSb7Fp/nRpZOS35d+4vLlN6EHlfuUlkvTdEn1LrikM5M7F55W/IJya82UcybsqoSLvI15BvIzjkgbYjoopLdbOg7ILocAkR0gpQ6dRCHAZZFrIQIrLRYWJCDIVlorYRNohB0Iy6bthO37nCDIRklJuP6kcn41ohBgMLBt6bCN1G0QgyJs5Bty7sG5vq6dEIcFHHJvvQOTd/4IQVjI5JtLQKLuNv3ZwhNjycsqQgBykmUOkFGKMo2QgrGRDhCACf/9k=);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .done {
+            text-decoration: line-through;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: cursive;
+            color: floralwhite;
+        }
+
+        input {
+            width: 260px;
+            padding: 8px;
+            font-size: 15px;
+            border: 1px solid white;
+            border-radius: 3px;
+            background: transparent;
+            color: white;
+            margin: auto;
+            outline: none;
+        }
+
+        input::placeholder {
+            color: white;
+        }
+        input:hover{
+            border: 1px solid red;
+        }
+
+        button {
+            margin-left: 10px;
+            padding: 9px 12px;
+            background: transparent;
+            border: 1px solid white;
+            border-radius: 3px;
+            color: white;
+        }
+        button:hover{
+            border: 1px solid red;  
+            background-color: gray; 
+            cursor: pointer;
+        }
+        .abcd{
+            margin-left: 500px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>To-Do List App</h1>
+    <div class="abcd">
+        <input type="text" id="task-input" placeholder="Enter a task">
+        <button id="add-task-btn">Add Task</button>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
