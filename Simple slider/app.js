@@ -1,7 +1,6 @@
 let slides = document.querySelectorAll(".slide");
 let counter = 0;
 console.log(slides);
-
 slides.forEach((slide, index) => {
   slide.style.left = `${index * 100}%`;
 });
