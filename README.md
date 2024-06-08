@@ -1,5 +1,4 @@
 #__JavaScript Simple Projects.
 
-In this repositroy i will make a simple project of javascript.
-mostly use the logic of javascript.
-in this repository i will add daily base one project like that , simple calulator  etc
+In this repository i can make a simple project using javascript.
+In this repository daily base push one project .
