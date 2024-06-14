@@ -1,3 +1,4 @@
-In this repository i make a simple project.
-Moatly use the logic of javascript.
-In this repository i will add daily base one project like that , simple calulator,to-do-list etc
+#JavaScript Simple Projects.
+
+In this repository i can make a simple project using javascript.
+for example _ simple calculator , to-do-list , tic-toc-toe etc.
