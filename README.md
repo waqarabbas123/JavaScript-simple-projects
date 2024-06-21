@@ -1,4 +1,2 @@
-#JavaScript Simple Projects.
-
-In this repository i can make a simple project using javascript.
-for example _ simple calculator , to-do-list , tic-toc-toe etc.
+#Javacript__Projects
+Using the logic of javascript i can make a simple project like that simple calulator , tic-tac-toe , to-do-list etc .
