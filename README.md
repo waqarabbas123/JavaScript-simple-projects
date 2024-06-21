@@ -1,2 +1,2 @@
-#JavaScript Simple Projects
-Uisng the concept of javascript i can make a simple projects like that simple calulator , js password etc .
+#Javacript__Projects
+Using the logic of javascript i can make a simple project like that simple calulator , tic-tac-toe , to-do-list etc .
