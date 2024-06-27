@@ -1,5 +1,4 @@
-#_Javascript_projects
-
-Using the logic of javascript i can make a simple projects .
-for example >
-              simple calculator , to-do-list , etc
+# javascript simple projects 
+Using the logic of javascript i can make a simpple project 
+like that 
+        simple calculator , to-do-list , and more 
