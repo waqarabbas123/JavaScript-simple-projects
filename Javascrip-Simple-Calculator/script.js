@@ -45,3 +45,5 @@ clear.addEventListener('click', () => {
   num2.value = '';
   result.value = '';
 });
+let x = "hellow this is me a waqar abbas";
+console.log(x);
